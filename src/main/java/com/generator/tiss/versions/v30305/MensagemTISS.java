@@ -2,25 +2,23 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementa��o de Refer�ncia (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modifica��es neste arquivo ser�o perdidas ap�s a recompila��o do esquema de origem. 
-// Gerado em: 2020.04.25 �s 04:35:56 AM BRT 
+// Gerado em: 2020.04.25 �s 04:40:31 AM BRT 
 //
 
 
 package com.generator.tiss.versions.v30305;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
-import org.w3._2000._09.xmldsig_.SignatureType;
+
+import com.generator.tiss.versions.v30305.org.SignatureType;
+
+import javax.xml.bind.annotation.*;
 
 
 /**
  * <p>Classe Java de anonymous complex type.
- * 
+ *
  * <p>O seguinte fragmento do esquema especifica o conte�do esperado contido dentro desta classe.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -38,16 +36,14 @@ import org.w3._2000._09.xmldsig_.SignatureType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "cabecalho",
-    "operadoraParaPrestador",
-    "prestadorParaOperadora",
-    "epilogo",
-    "signature"
+        "cabecalho",
+        "operadoraParaPrestador",
+        "prestadorParaOperadora",
+        "epilogo",
+        "signature"
 })
 @XmlRootElement(name = "mensagemTISS")
 public class MensagemTISS {
@@ -63,11 +59,9 @@ public class MensagemTISS {
 
     /**
      * Obt�m o valor da propriedade cabecalho.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CabecalhoTransacao }
-     *     
+     *
+     * @return possible object is
+     * {@link CabecalhoTransacao }
      */
     public CabecalhoTransacao getCabecalho() {
         return cabecalho;
@@ -75,11 +69,9 @@ public class MensagemTISS {
 
     /**
      * Define o valor da propriedade cabecalho.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CabecalhoTransacao }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link CabecalhoTransacao }
      */
     public void setCabecalho(CabecalhoTransacao value) {
         this.cabecalho = value;
@@ -87,11 +79,9 @@ public class MensagemTISS {
 
     /**
      * Obt�m o valor da propriedade operadoraParaPrestador.
-     * 
-     * @return
-     *     possible object is
-     *     {@link OperadoraPrestador }
-     *     
+     *
+     * @return possible object is
+     * {@link OperadoraPrestador }
      */
     public OperadoraPrestador getOperadoraParaPrestador() {
         return operadoraParaPrestador;
@@ -99,11 +89,9 @@ public class MensagemTISS {
 
     /**
      * Define o valor da propriedade operadoraParaPrestador.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link OperadoraPrestador }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link OperadoraPrestador }
      */
     public void setOperadoraParaPrestador(OperadoraPrestador value) {
         this.operadoraParaPrestador = value;
@@ -111,11 +99,9 @@ public class MensagemTISS {
 
     /**
      * Obt�m o valor da propriedade prestadorParaOperadora.
-     * 
-     * @return
-     *     possible object is
-     *     {@link PrestadorOperadora }
-     *     
+     *
+     * @return possible object is
+     * {@link PrestadorOperadora }
      */
     public PrestadorOperadora getPrestadorParaOperadora() {
         return prestadorParaOperadora;
@@ -123,11 +109,9 @@ public class MensagemTISS {
 
     /**
      * Define o valor da propriedade prestadorParaOperadora.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link PrestadorOperadora }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link PrestadorOperadora }
      */
     public void setPrestadorParaOperadora(PrestadorOperadora value) {
         this.prestadorParaOperadora = value;
@@ -135,11 +119,9 @@ public class MensagemTISS {
 
     /**
      * Obt�m o valor da propriedade epilogo.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Epilogo }
-     *     
+     *
+     * @return possible object is
+     * {@link Epilogo }
      */
     public Epilogo getEpilogo() {
         return epilogo;
@@ -147,11 +129,9 @@ public class MensagemTISS {
 
     /**
      * Define o valor da propriedade epilogo.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Epilogo }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Epilogo }
      */
     public void setEpilogo(Epilogo value) {
         this.epilogo = value;
@@ -159,11 +139,9 @@ public class MensagemTISS {
 
     /**
      * Obt�m o valor da propriedade signature.
-     * 
-     * @return
-     *     possible object is
-     *     {@link SignatureType }
-     *     
+     *
+     * @return possible object is
+     * {@link SignatureType }
      */
     public SignatureType getSignature() {
         return signature;
@@ -171,11 +149,9 @@ public class MensagemTISS {
 
     /**
      * Define o valor da propriedade signature.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link SignatureType }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link SignatureType }
      */
     public void setSignature(SignatureType value) {
         this.signature = value;

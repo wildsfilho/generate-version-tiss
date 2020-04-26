@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementa��o de Refer�ncia (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modifica��es neste arquivo ser�o perdidas ap�s a recompila��o do esquema de origem. 
-// Gerado em: 2020.04.25 �s 04:37:47 AM BRT 
+// Gerado em: 2020.04.26 �s 04:32:18 AM BRT 
 //
 
 
@@ -73,7 +73,7 @@ import javax.xml.bind.annotation.XmlType;
     "motivosNegativa"
 })
 @XmlSeeAlso({
-    br.gov.ans.padroes.tiss.schemas.CtmAutorizacaoOPME.ServicosAutorizadosOPME.class
+    CtmAutorizacaoOPME.ServicosAutorizadosOPME.class
 })
 public class CtProcedimentoAutorizado {
 
