@@ -2,28 +2,23 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementa��o de Refer�ncia (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modifica��es neste arquivo ser�o perdidas ap�s a recompila��o do esquema de origem. 
-// Gerado em: 2020.04.25 �s 04:37:47 AM BRT 
+// Gerado em: 2020.04.26 �s 04:32:18 AM BRT 
 //
 
 
 package com.generator.tiss.versions.v30305;
 
+import javax.xml.bind.annotation.*;
+import javax.xml.datatype.XMLGregorianCalendar;
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlSeeAlso;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
  * <p>Classe Java de ct_procedimentoExecutadoOdonto complex type.
- * 
+ *
  * <p>O seguinte fragmento do esquema especifica o conte�do esperado contido dentro desta classe.
- * 
+ *
  * <pre>
  * &lt;complexType name="ct_procedimentoExecutadoOdonto">
  *   &lt;complexContent>
@@ -55,24 +50,22 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ct_procedimentoExecutadoOdonto", propOrder = {
-    "sequencialItem",
-    "procedimento",
-    "denteRegiao",
-    "denteFace",
-    "qtdProc",
-    "qtdUS",
-    "valorProc",
-    "valorFranquia",
-    "autorizado",
-    "dataRealizacao"
+        "sequencialItem",
+        "procedimento",
+        "denteRegiao",
+        "denteFace",
+        "qtdProc",
+        "qtdUS",
+        "valorProc",
+        "valorFranquia",
+        "autorizado",
+        "dataRealizacao"
 })
 @XmlSeeAlso({
-    br.gov.ans.padroes.tiss.schemas.CtGuiaDadosOdonto.ProcedimentosRealizados.ProcedimentoRealizado.class
+        CtGuiaDadosOdonto.ProcedimentosRealizados.ProcedimentoRealizado.class
 })
 public class CtProcedimentoExecutadoOdonto {
 
@@ -94,11 +87,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade sequencialItem.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigInteger }
-     *     
+     *
+     * @return possible object is
+     * {@link BigInteger }
      */
     public BigInteger getSequencialItem() {
         return sequencialItem;
@@ -106,11 +97,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade sequencialItem.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigInteger }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigInteger }
      */
     public void setSequencialItem(BigInteger value) {
         this.sequencialItem = value;
@@ -118,11 +107,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade procedimento.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CtProcedimentoDados }
-     *     
+     *
+     * @return possible object is
+     * {@link CtProcedimentoDados }
      */
     public CtProcedimentoDados getProcedimento() {
         return procedimento;
@@ -130,11 +117,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade procedimento.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CtProcedimentoDados }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link CtProcedimentoDados }
      */
     public void setProcedimento(CtProcedimentoDados value) {
         this.procedimento = value;
@@ -142,11 +127,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade denteRegiao.
-     * 
-     * @return
-     *     possible object is
-     *     {@link DenteRegiao }
-     *     
+     *
+     * @return possible object is
+     * {@link DenteRegiao }
      */
     public DenteRegiao getDenteRegiao() {
         return denteRegiao;
@@ -154,11 +137,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade denteRegiao.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link DenteRegiao }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link DenteRegiao }
      */
     public void setDenteRegiao(DenteRegiao value) {
         this.denteRegiao = value;
@@ -166,11 +147,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade denteFace.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getDenteFace() {
         return denteFace;
@@ -178,11 +157,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade denteFace.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setDenteFace(String value) {
         this.denteFace = value;
@@ -190,11 +167,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade qtdProc.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigInteger }
-     *     
+     *
+     * @return possible object is
+     * {@link BigInteger }
      */
     public BigInteger getQtdProc() {
         return qtdProc;
@@ -202,11 +177,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade qtdProc.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigInteger }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigInteger }
      */
     public void setQtdProc(BigInteger value) {
         this.qtdProc = value;
@@ -214,11 +187,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade qtdUS.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @return possible object is
+     * {@link BigDecimal }
      */
     public BigDecimal getQtdUS() {
         return qtdUS;
@@ -226,11 +197,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade qtdUS.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigDecimal }
      */
     public void setQtdUS(BigDecimal value) {
         this.qtdUS = value;
@@ -238,11 +207,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade valorProc.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @return possible object is
+     * {@link BigDecimal }
      */
     public BigDecimal getValorProc() {
         return valorProc;
@@ -250,11 +217,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade valorProc.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigDecimal }
      */
     public void setValorProc(BigDecimal value) {
         this.valorProc = value;
@@ -262,11 +227,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade valorFranquia.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @return possible object is
+     * {@link BigDecimal }
      */
     public BigDecimal getValorFranquia() {
         return valorFranquia;
@@ -274,11 +237,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade valorFranquia.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigDecimal }
      */
     public void setValorFranquia(BigDecimal value) {
         this.valorFranquia = value;
@@ -286,11 +247,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade autorizado.
-     * 
-     * @return
-     *     possible object is
-     *     {@link DmSimNao }
-     *     
+     *
+     * @return possible object is
+     * {@link DmSimNao }
      */
     public DmSimNao getAutorizado() {
         return autorizado;
@@ -298,11 +257,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade autorizado.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link DmSimNao }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link DmSimNao }
      */
     public void setAutorizado(DmSimNao value) {
         this.autorizado = value;
@@ -310,11 +267,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Obt�m o valor da propriedade dataRealizacao.
-     * 
-     * @return
-     *     possible object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @return possible object is
+     * {@link XMLGregorianCalendar }
      */
     public XMLGregorianCalendar getDataRealizacao() {
         return dataRealizacao;
@@ -322,11 +277,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * Define o valor da propriedade dataRealizacao.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link XMLGregorianCalendar }
      */
     public void setDataRealizacao(XMLGregorianCalendar value) {
         this.dataRealizacao = value;
@@ -335,9 +288,9 @@ public class CtProcedimentoExecutadoOdonto {
 
     /**
      * <p>Classe Java de anonymous complex type.
-     * 
+     *
      * <p>O seguinte fragmento do esquema especifica o conte�do esperado contido dentro desta classe.
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -350,13 +303,11 @@ public class CtProcedimentoExecutadoOdonto {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "codDente",
-        "codRegiao"
+            "codDente",
+            "codRegiao"
     })
     public static class DenteRegiao {
 
@@ -366,11 +317,9 @@ public class CtProcedimentoExecutadoOdonto {
 
         /**
          * Obt�m o valor da propriedade codDente.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getCodDente() {
             return codDente;
@@ -378,11 +327,9 @@ public class CtProcedimentoExecutadoOdonto {
 
         /**
          * Define o valor da propriedade codDente.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setCodDente(String value) {
             this.codDente = value;
@@ -390,11 +337,9 @@ public class CtProcedimentoExecutadoOdonto {
 
         /**
          * Obt�m o valor da propriedade codRegiao.
-         * 
-         * @return
-         *     possible object is
-         *     {@link DmRegiao }
-         *     
+         *
+         * @return possible object is
+         * {@link DmRegiao }
          */
         public DmRegiao getCodRegiao() {
             return codRegiao;
@@ -402,11 +347,9 @@ public class CtProcedimentoExecutadoOdonto {
 
         /**
          * Define o valor da propriedade codRegiao.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link DmRegiao }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link DmRegiao }
          */
         public void setCodRegiao(DmRegiao value) {
             this.codRegiao = value;

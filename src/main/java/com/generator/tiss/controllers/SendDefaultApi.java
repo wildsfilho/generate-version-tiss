@@ -16,7 +16,7 @@ public class SendDefaultApi {
     DtoSendDefaultService dtoSendDefaultService;
 
     @GetMapping("/send-defaults")
-    public ResponseEntity<DtoSendDefault> get_send_default() {
+    public ResponseEntity<DtoSendDefault> getSendDefault() {
         DtoSendDefault dtoSendDefault = dtoSendDefaultService.returnResultDefault();
         return ResponseEntity.ok(dtoSendDefault);
     }
